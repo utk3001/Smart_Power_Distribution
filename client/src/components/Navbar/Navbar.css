@@ -1,0 +1,116 @@
+/* Navbar container */
+.main-nav {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 15px 0;
+  margin-top: 10px;
+  /* background-color: #222; Darker background color */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); Add a subtle shadow */
+  padding: 14px 7px 2px 2px;
+  height: 45px;
+
+}
+
+/* Navbar links */
+.navbar {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 15px 0;
+}
+
+.nav-item {
+  margin: 0 20px;
+  /* Add space between navbar items */
+  text-decoration: none;
+  color: #f2f2f2;
+  /* Text color */
+  font-size: 16px;
+  text-transform: uppercase;
+  /* Uppercase text */
+  letter-spacing: 1px;
+  /* Add letter spacing */
+  transition: color 0.3s ease;
+  /* Smooth transition on hover */
+}
+
+/* Navbar links on hover */
+.nav-item:hover {
+  color: #ff6b6b;
+  /* Change text color on hover */
+}
+
+/* Add a logo or branding to the navbar */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/* Responsive navigation menu */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+}
+
+/* Your additional styles here */
+
+/* Body background image */
+body {
+  background-image: "./images/smartHome_nav.jpg";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Custom Navbar container */
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: rgba(0, 5, 16, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+/* Custom Navbar logo */
+.custom-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* Custom Navbar links */
+.custom-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Custom Navbar links on hover */
+.custom-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Custom Navbar contact info */
+.contact {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #888;
+}
